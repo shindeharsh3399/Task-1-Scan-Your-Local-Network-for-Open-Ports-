@@ -1,0 +1,40 @@
+# Nmap 7.97 scan initiated Mon Aug  4 16:10:39 2025 as: nmap -sS -T5 -oN scan.txt 
+192.168.1.1/NmapNmap scan report for 192.168.1.1
+Host is up (0.0080s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+23/tcp   open  telnet
+80/tcp   open  http
+1900/tcp open  upnp
+MAC Address: 5C:62:8B:F0:4A:E0 (TP-Link Limited)
+
+Nmap scan report for 192.168.1.104
+Host is up (0.0018s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT   STATE    SERVICE
+23/tcp open     telnet
+53/tcp filtered domain
+80/tcp open     http
+MAC Address: 90:9A:4A:E1:67:E8 (TP-Link Technologies)
+
+Nmap scan report for 192.168.1.103
+Host is up (0.000049s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT    STATE SERVICE
+80/tcp  open  http
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+902/tcp open  iss-realsecure
+912/tcp open  apex-mesh
+
+Nmap scan report for 192.168.1.110
+Host is up (0.000020s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT    STATE SERVICE
+80/tcp  open  http
+135/tcp open  msrpc
+445/tcp open  microsoft-ds
+902/tcp open  iss-realsecure
+912/tcp open  apex-mesh
+
+# Nmap done at Mon Aug  4 16:11:29 2025 -- 256 IP addresses (4 hosts up) scanned in 49.85 seconds
