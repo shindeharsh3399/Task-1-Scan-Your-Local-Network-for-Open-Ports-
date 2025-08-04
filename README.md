@@ -9,7 +9,7 @@ This project demonstrates how to scan a local network using **Nmap** to find act
 ## 🛠 Tools Used
 
 - [Nmap](https://nmap.org/) – Network scanning tool
-- [Zenmap](https://nmap.org/download) - Network scanning tooll for Windows  
+- [Zenmap](https://nmap.org/download) - Network scanning tool for Windows  
 
 ## 📡 Steps Followed
 
